@@ -1,0 +1,3 @@
+/env/.rasa/*
+/env/Lib/site-packages/*
+/env/lib/*

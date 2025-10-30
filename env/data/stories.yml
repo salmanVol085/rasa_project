@@ -1,0 +1,15 @@
+version: "3.1"
+
+stories:
+
+- story: greeting story
+  steps:
+  - intent: greet
+  - action: action_hello_world
+
+- story: goodbye story
+  steps:
+  - intent: goodbye
+  - action: action_goodbye
+
+
