@@ -1,4 +1,4 @@
-#!D:\Rasaproject\env\Scripts\python.exe
+#!D:\xampp\htdocs\rasalaravelfaq\env\Scripts\python.exe
 
 import sys
 import json

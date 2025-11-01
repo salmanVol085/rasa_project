@@ -1,4 +1,4 @@
-#!D:\Rasaproject\env\Scripts\python.exe
+#!D:\xampp\htdocs\rasalaravelfaq\env\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'randomname==0.1.5','console_scripts','randomname'
 import re
 import sys

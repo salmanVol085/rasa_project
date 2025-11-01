@@ -2,14 +2,33 @@ version: "3.1"
 
 stories:
 
-- story: greeting story
+- story: happy path
   steps:
   - intent: greet
-  - action: action_hello_world
+  - action: action_greet
 
-- story: goodbye story
+- story: goodbye path
   steps:
   - intent: goodbye
   - action: action_goodbye
 
+- story: ask hours path
+  steps:  
+  - intent: ask_hours
+  - action: action_ask_hours
+
+- story: ask location path
+  steps:                        
+  - intent: ask_location
+  - action: action_ask_location
+
+- story: ask contact path
+  steps:                        
+  - intent: ask_contact
+  - action: action_ask_contact  
+
+- story: crickett match path
+  steps:                        
+  - intent: match_cricket
+  - action: action_match_cricket
 

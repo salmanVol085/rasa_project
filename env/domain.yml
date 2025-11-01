@@ -3,11 +3,22 @@ version: "3.1"
 intents:
   - greet
   - goodbye
+  - ask_hours
+  - ask_location
+  - ask_contact
+  - match_cricket
 
+
+  
 actions:
-  - action_hello_world
+  - action_greet
   - action_goodbye
- 
+  - action_ask_hours
+  - action_ask_location
+  - action_ask_contact
+  - action_match_cricket
+
+
 
 session_config:
   session_expiration_time: 60

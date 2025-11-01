@@ -16,12 +16,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-    - greetings
-    - kasa ahes 
-    - namaste
-    - what's up
-    - yo
-    
 
 - intent: goodbye
   examples: |
@@ -35,14 +29,30 @@ nlu:
     - see you around
     - bye bye
     - see you later
-    - talk to you later
-    - catch you later
-    - see ya
-    - later
-    - night
-    - peace out
-    - I'm off
 
+- intent: ask_hours
+  examples: |
+    - What are your working hours?
+    - When are you open?
+    - What time do you start?
+    - What time do you close?
 
+- intent: ask_location
+  examples: |
+    - Where are you located?
+    - What is your office address?
+    - How do I find you?
 
+- intent: ask_contact
+  examples: |
+    - How can I contact you?
+    - What is your phone number?
+    - Can I have your email address?
 
+- intent: match_cricket
+  examples: |
+    - When is the next cricket match?
+    - Who is playing in the next cricket match?
+    - Where is the next cricket match being held?
+    - What time does the next cricket match start?  
+    - How can I watch the next cricket match?
